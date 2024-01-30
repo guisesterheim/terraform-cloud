@@ -13,3 +13,5 @@ add workspace
 
 "auto-apply API, CLI & VCS runs" > select "auto-apply run triggers"
 
+add AWS provider to Isengard: https://developer.hashicorp.com/terraform/cloud-docs/workspaces/dynamic-provider-credentials/aws-configuration
+
