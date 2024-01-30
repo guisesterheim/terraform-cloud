@@ -11,7 +11,7 @@ terraform {
     organization = "lab-guilherme"
 
     workspaces {
-      name = "kms-"
+      project = "Terraform-Cloud"
     }
   }
 }
@@ -21,9 +21,9 @@ provider "aws" {
 
   default_tags {
     tags = {
-      Environment            = "dev"
-      Managed-by        = "Terraform"
-      GitHubRepository         = "https://github.com/guisesterheim/terraform-cloud"
+      Environment      = "dev"
+      Managed-by       = "Terraform"
+      GitHubRepository = "https://github.com/guisesterheim/terraform-cloud"
     }
   }
 }

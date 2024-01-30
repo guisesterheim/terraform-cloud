@@ -17,11 +17,11 @@ locals {
     },
     prod = {
       "ebs" = {
-        alias_name = "kms-dev-ebs"
+        alias_name = "kms-prod-ebs"
       }
-      "efs" = {}
+      "efs"        = {}
       "cloudwatch" = {}
     }
-  }) 
+  })
   keys_to_create = local.keys_map[var.environment]
 }
