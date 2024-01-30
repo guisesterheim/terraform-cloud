@@ -11,7 +11,7 @@ terraform {
     organization = "lab-guilherme"
 
     workspaces {
-      name = "terraform-cloud"
+      name = "kms-"
     }
   }
 }

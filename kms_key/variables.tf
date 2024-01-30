@@ -7,8 +7,3 @@ variable "environment" {
   description = "Environment to be used for this run"
   type        = string
 }
-
-variable "keys_to_create" {
-  description = "List of keys to create"
-  type = any
-}
