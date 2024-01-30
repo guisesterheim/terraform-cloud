@@ -1,6 +1,6 @@
 module "kms" {
   source = "./modules/kms"
-  for_each = var.keys_to_create
+  for_each = local.keys_to_create
 
   aws_region       = var.aws_region
   environment      = var.environment

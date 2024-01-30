@@ -8,11 +8,6 @@ variable "environment" {
   type        = string
 }
 
-variable "environment_type" {
-  description = "Whether the key creation is happening for Retail or Commerce"
-  type        = string
-}
-
 variable "target_service" {
   description = "Service that this KMS is going to be used for"
   type        = string
