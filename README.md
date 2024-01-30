@@ -15,3 +15,6 @@ add workspace
 
 add AWS provider to Isengard: https://developer.hashicorp.com/terraform/cloud-docs/workspaces/dynamic-provider-credentials/aws-configuration
 
+add project: terraform cloud
+add workspace: kms-dev (name)
+select project, working directory, auto apply run triggers, vcs branch dev, 
