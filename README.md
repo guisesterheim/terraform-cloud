@@ -18,3 +18,16 @@ add AWS provider to Isengard: https://developer.hashicorp.com/terraform/cloud-do
 add project: terraform cloud
 add workspace: kms-dev (name)
 select project, working directory, auto apply run triggers, vcs branch dev, 
+
+copy all the code
+
+create autoscaling role manual https://docs.aws.amazon.com/autoscaling/ec2/userguide/autoscaling-service-linked-role.html#create-service-linked-role
+
+create kms resources
+
+
+DONE
+
+now create kms prod workspace
+
+show the plan
