@@ -1,5 +1,5 @@
 resource "aws_kms_key_policy" "ebs_policy" {
-  count = lower(var.target_service) == "ebs" ? 1 : 0
+  count = var.target_service == "ebs" ? 1 : 0
 
   key_id = aws_kms_key.this.id
   policy = jsonencode({
