@@ -19,9 +19,9 @@ locals {
       "ebs" = {
         alias_name = "kms-dev-ebs"
       }
-      "efs" = {}
+      "efs"        = {}
       "cloudwatch" = {}
     }
-  }) 
+  })
   keys_to_create = local.keys_map[var.environment]
 }
