@@ -15,3 +15,15 @@ terraform {
     }
   }
 }
+
+provider "aws" {
+  region = "us-east-1"
+
+  default_tags {
+    tags = {
+      Environment            = "dev"
+      Managed-by        = "Terraform"
+      GitHubRepository         = "https://github.com/guisesterheim/terraform-cloud"
+    }
+  }
+}

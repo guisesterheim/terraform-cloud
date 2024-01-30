@@ -11,3 +11,5 @@ create repo on github. make sure there's at least one branch (git defender appro
 projects and workspace
 add workspace
 
+"auto-apply API, CLI & VCS runs" > select "auto-apply run triggers"
+
