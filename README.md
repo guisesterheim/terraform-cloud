@@ -1,1 +1,13 @@
-terraform-cloud
+# terraform-cloud
+
+create account
+confirm email address
+
+profile > create organization > lab-guilherme
+
+add vcs provider
+create repo on github. make sure there's at least one branch (git defender approval might be required)
+
+projects and workspace
+add workspace
+
