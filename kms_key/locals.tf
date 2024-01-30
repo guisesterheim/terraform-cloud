@@ -17,7 +17,7 @@ locals {
     },
     prod = {
       "ebs" = {
-        alias_name = "kms-dev-ebs"
+        alias_name = "kms-prod-ebs"
       }
       "efs"        = {}
       "cloudwatch" = {}
