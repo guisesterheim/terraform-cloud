@@ -9,10 +9,6 @@ terraform {
   }
   cloud {
     organization = "sap-team-lab"
-
-    workspaces {
-      project = "Lab"
-    }
   }
 }
 
