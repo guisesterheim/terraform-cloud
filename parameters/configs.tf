@@ -11,7 +11,7 @@ terraform {
     organization = "sap-team-lab"
 
     workspaces {
-      project = "lab-parameter"
+      project = "Lab"
     }
   }
 }
