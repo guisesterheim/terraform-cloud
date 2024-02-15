@@ -1,11 +1,7 @@
-resource "aws_ssm_parameter" "param" {
-  name  = "/dev/param"
-  type  = "String"
-  value = "test"
-}
+resource "aws_ssm_parameter" "parameters" {
+  for_each = var.params_to_create
 
-resource "aws_ssm_parameter" "param2" {
-  name  = "/dev/param2"
-  type  = "String"
-  value = "test2"
+  name  = "/${var.environment}/${each.key}"
+  type  = each.value["type"]
+  value = each.value["value"]
 }
