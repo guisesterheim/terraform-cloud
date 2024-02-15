@@ -7,8 +7,3 @@ variable "environment" {
   description = "Environment to be used for this run"
   type        = string
 }
-
-variable "params_to_create" {
-  description = "Map of parameters to be created"
-  type        = map(map(string))
-}

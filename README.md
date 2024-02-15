@@ -25,6 +25,7 @@ create autoscaling role manual https://docs.aws.amazon.com/autoscaling/ec2/userg
 
 create kms resources
 
+create account confirm email address
 
 DONE
 
