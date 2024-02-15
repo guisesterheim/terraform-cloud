@@ -1,5 +1,5 @@
 resource "aws_kms_key_policy" "general_policy" {
-  count = var.target_service != "EBS" && var.target_service != "CloudWatch" ? 1 : 0
+  count = lower(var.target_service) != "ebs" ? 1 : 0
 
   key_id = aws_kms_key.this.id
   policy = jsonencode({
