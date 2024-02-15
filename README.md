@@ -15,3 +15,17 @@ projects and workspace add workspace
 add AWS provider to Isengard: https://developer.hashicorp.com/terraform/cloud-docs/workspaces/dynamic-provider-credentials/aws-configuration
 
 add project: terraform cloud add workspace: kms-dev (name) select project, working directory, auto apply run triggers, vcs branch dev,
+
+recording:
+
+update the IAM role to allow the "challenge" project
+
+delete the old workspace we left in the account
+
+create workspace
+change from that folder only
+dev branch
+
+add two custom terraform variables
+
+add region
