@@ -8,10 +8,10 @@ terraform {
     }
   }
   cloud {
-    organization = "lab-sesterhg"
+    organization = "sap-team-lab"
 
     workspaces {
-      project = "challenge"
+      project = "Lab"
     }
   }
 }
